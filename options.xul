@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- ***** BEGIN LICENSE BLOCK *****
+ * Version: MIT/X11 License
+ * 
+ * Copyright (c) 2013 Girish Sharma
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * Contributor:
+ *   Girish Sharma <scrapmachines@gmail.com> (Creator)
+ *
+ * ***** END LICENSE BLOCK ***** -->
+
+<box xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <setting pref="extensions.critiques.personalKey"
+    title="Enter your personal activated Rotten Tomato API key" type="string">
+      If this is a 24 character API key, it will be used to make API calls to Rotten Tomato.
+      This means that you will not share your key and the API call limitations with anyone else. Which in turn means that you can now search upto 5 movies per second leading to a maximum of 5000 movies per day.
+      By entering a key here, you are responsible for the fact that the key should be valid and activated, or else the add-on will not work.
+      Leave this blank if you do not want to use your personal key and want to share the API call limitation with other users of the add-on.
+      To know the process of getting your own personal API key for free, visit the home page of the add-on.
+  </setting>
+
+</box>
