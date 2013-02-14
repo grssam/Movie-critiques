@@ -1,1 +1,4 @@
 This repository contains the source code of the add-on Movie Critiques.
+The file keys/keys.js is not being tracked in this repo as it contains the API keys that I am using. These API keys are free to get so there is no need for me to share mine.
+
+Visit the homepage for more information : https://addons.mozilla.org/en-US/firefox/addon/critiques/
